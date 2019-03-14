@@ -27,7 +27,7 @@ let scrape = async () => {
 };
 
 
-//Running the scrape function
-scrape().then(results => {
-    console.log(results);
-});
+//Export Scraper
+module.exports = {
+    scrape
+}

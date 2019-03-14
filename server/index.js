@@ -1,6 +1,10 @@
 const express = require('express');
 const bodyParser = require('body-parser');
 
+//Controllers
+const googleScraperCtrl = require('./controllers/googleReviewScraperCtrl');
+
+//Express Wrapper
 const app = express();
 
 //Top Level Middleware
